@@ -1,0 +1,66 @@
+body {
+  background-color: lightgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Logo {
+  background-color: grey;
+  padding: 10px 25px;
+  margin: 10px 0px;
+}
+
+.Logo nav {
+  background-color: grey;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 60%;
+}
+
+body table {
+  background-color: lightgrey;
+  margin: 0px;
+  width: 100%;
+}
+
+body table td {
+  background-color: grey;
+  width: 80px;
+  height: 80px;
+  margin: 40px;
+  padding: 20px;
+  border-top: 20px solid lightgrey;
+  border-bottom: 20px solid lightgrey;
+}
+
+body table tr :nth-child(2) {
+  border-left: 40px solid lightgrey;
+  border-right: 20px solid lightgrey;
+}
+
+body table tr :nth-child(3) {
+  border-left: 20px solid lightgrey;
+  border-right: 40px solid lightgrey;
+}
+
+.Boxes {
+  background-color: lightgrey;
+  margin: 25px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Box {
+  background-color: grey;
+  width: 32%;
+  height: 200px;
+  display: inline-block;
+  line-height: 200px;
+  text-align: center;
+}
+
+body footer {
+  background-color: grey;
+  padding: 10px 25px;
+  margin: 10px 0px;
+  text-align: center;
+}
